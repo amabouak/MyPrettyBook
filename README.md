@@ -131,7 +131,9 @@ Remarques
     La pagination est configurée pour 6 livres par page.
     Le projet est compatible mobile et responsive.
 
-Captures d'écrans 
+#Captures d'écrans 
+
+#Page d'accueil
 
 ![Page d'accueil](capturesD'ecrans/accueil.png)
 
