@@ -130,6 +130,61 @@ Remarques
     Les avis ne nécessitent pas d’authentification dans cette version.
     La pagination est configurée pour 6 livres par page.
     Le projet est compatible mobile et responsive.
+    
+# Description des tables
+
+### 1. Table `books`
+
+| Champ       | Type      | Description                                      |
+|-------------|-----------|--------------------------------------------------|
+| id          | bigint    | Identifiant unique du livre (clé primaire).      |
+| title       | string    | Titre du livre.                                  |
+| author      | string    | Auteur du livre.                                 |
+| created_at  | timestamp | Date et heure de création du livre.              |
+| updated_at  | timestamp | Date et heure de la dernière mise à jour.        |
+
+---
+
+### 2. Table `reviews`
+
+| Champ       | Type      | Description                                                  |
+|-------------|-----------|--------------------------------------------------------------|
+| id          | bigint    | Identifiant unique de l'avis (clé primaire).                 |
+| book_id     | bigint    | Identifiant du livre (clé étrangère vers `books`).           |
+| user_id     | bigint    | Identifiant de l'utilisateur (clé étrangère vers `users`).   |
+| rating      | integer   | Note donnée au livre (1 à 5).                                |
+| comment     | text      | Commentaire de l'utilisateur sur le livre.                   |
+| created_at  | timestamp | Date et heure de création de l'avis.                         |
+| updated_at  | timestamp | Date et heure de la dernière mise à jour.                    |
+
+---
+
+### 3. Table `users`
+
+| Champ       | Type      | Description                                         |
+|-------------|-----------|-----------------------------------------------------|
+| id          | bigint    | Identifiant unique de l'utilisateur (clé primaire). |
+| name        | string    | Nom de l'utilisateur.                               |
+| email       | string    | Adresse e-mail de l'utilisateur (unique).          |
+| password    | string    | Mot de passe de l'utilisateur.                     |
+| created_at  | timestamp | Date et heure de création de l'utilisateur.        |
+| updated_at  | timestamp | Date et heure de la dernière mise à jour.          |
+
+---
+
+### Relations entre les tables
+
+- **`books` → `reviews`** : Un livre peut avoir plusieurs avis (**relation un-à-plusieurs**).
+- **`users` → `reviews`** : Un utilisateur peut laisser plusieurs avis (**relation un-à-plusieurs**).
+
+---
+
+### Explication des sections
+
+- **Table `books`** : Détaille les champs de la table des livres, y compris le type de données et une brève description de chaque champ.
+- **Table `reviews`** : Détaille les champs de la table des avis, y compris les clés étrangères qui relient les avis aux livres et aux utilisateurs.
+- **Table `users`** : Détaille les champs de la table des utilisateurs.
+- **Relations entre les tables** : Explique les relations entre les différentes tables, ce qui aide à comprendre comment les données sont interconnectées.
 
 # Captures d'écrans 
 
