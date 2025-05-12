@@ -185,6 +185,10 @@ Remarques
 
 ![basedonnee](capturesD'ecrans/baseDonneeUtilisateurs.png)
 
+## Page 404 personnalisée
+
+![basedonnee](capturesD'ecrans/page404.png)
+
 ## Support et contribution
 
 N’hésitez pas à faire remonter des bugs ou suggestions via issues GitHub, ou à proposer vos améliorations via pull requests.
