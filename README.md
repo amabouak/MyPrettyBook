@@ -131,10 +131,60 @@ Remarques
     La pagination est configurée pour 6 livres par page.
     Le projet est compatible mobile et responsive.
 
-Captures d'écrans 
+# Captures d'écrans 
+
+## Page d'accueil
 
 ![Page d'accueil](capturesD'ecrans/accueil.png)
 
-Support et contribution
+## Menu Liste Livres 1
+
+![menuListeLivres](capturesD'ecrans/menuListeLivres_1.png)
+
+## Menu Liste Livres 2
+
+![menuListeLivres](capturesD'ecrans/menuListeLivres_2.png)
+
+## Menu Liste Livres 3
+
+![menuListeLivres](capturesD'ecrans/menuListeLivres_3.png)
+
+## Menu Liste Livres 4
+
+![menuListeLivres](capturesD'ecrans/menuListeLivres_4.png)
+
+## Détail du livre + formulaire d'avis
+
+![details](capturesD'ecrans/pageDetails_formulaireAjout.png)
+
+## Remplissage du formulaire d'avis
+
+![details](capturesD'ecrans/remplissageFormulaire.png)
+
+## Ajout d'un avis
+
+![details](capturesD'ecrans/ajoutAvis.png)
+
+## Formulaire de modification
+
+![details](capturesD'ecrans/formulaireModification.png)
+
+## Modification d'un avis
+
+![details](capturesD'ecrans/ajoutModification.png)
+
+## Modification du menu des livres après ajout d'un avis
+
+![menuListeLivres](capturesD'ecrans/miseAJour_menuLivres.png)
+
+## Base de donnée du projet 
+
+![basedonnee](capturesD'ecrans/baseDonnee.png)
+
+## Affichage de la liste des utilisateurs présents dans la base de donnée du projet 
+
+![basedonnee](capturesD'ecrans/baseDonneeUtilisateurs.png)
+
+## Support et contribution
 
 N’hésitez pas à faire remonter des bugs ou suggestions via issues GitHub, ou à proposer vos améliorations via pull requests.
