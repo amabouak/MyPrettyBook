@@ -175,15 +175,15 @@ Remarques
 
 ## Modification du menu des livres après ajout d'un avis
 
-![menuListeLivres](miseAJour_menuLivres.png)
+![menuListeLivres](capturesD'ecrans/miseAJour_menuLivres.png)
 
 ## Base de donnée du projet 
 
-![basedonnee](baseDonnee.png)
+![basedonnee](capturesD'ecrans/baseDonnee.png)
 
 ## Affichage de la liste des utilisateurs présents dans la base de donnée du projet 
 
-![basedonnee](baseDonneeUtilisateurs.png)
+![basedonnee](capturesD'ecrans/baseDonneeUtilisateurs.png)
 
 ## Support et contribution
 
