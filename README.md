@@ -236,10 +236,6 @@ Remarques
 
 ![basedonnee](capturesD'ecrans/page404.png)
 
-## Base de donnée du projet 
-
-![basedonnee](capturesD'ecrans/baseDonnee.png)
-
 ## Affichage de la liste des utilisateurs présents dans la base de donnée du projet 
 
 ![basedonnee](capturesD'ecrans/baseDonneeUtilisateurs.png)
